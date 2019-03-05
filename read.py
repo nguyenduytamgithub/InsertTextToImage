@@ -11,7 +11,6 @@ with open('card.csv', 'r') as csvFile:
 	for e in row:
 		draw.text((70, 250),e,(0,0,0),font=font)
 		print(e)
-		img.save('card3.jpg')
-
+img.save('card4.jpg')
 csvFile.close()
 
