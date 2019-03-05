@@ -11,7 +11,7 @@ with open('../input/card.csv', 'r') as csvFile:
 		img = Image.open("../image_input/image.png") 
 		draw = ImageDraw.Draw(img)
 		draw.text((70, 250),e,(0,0,0),font=font) 
-		img.save('../output/card' + str(i) + '.jpg') 				
+		img.save('../output/card' + str(i) + '.png') 				
 		i = i + 1
 		print(e)
 csvFile.close()
