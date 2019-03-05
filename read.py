@@ -9,8 +9,8 @@ with open('card.csv', 'r') as csvFile:
     reader = csv.reader(csvFile)
     for row in reader:
 	for e in row:
-		draw.text((70, 250),e,(0,0,0),font=font)
 		print(e)
-img.save('card4.jpg')
+draw.text((70, 250),e,(0,0,0),font=font)
+img.save('card5.jpg')
 csvFile.close()
 
