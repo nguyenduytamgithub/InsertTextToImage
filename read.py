@@ -13,7 +13,7 @@ with open('card.csv', 'r') as csvFile:
 		img = Image.open("khung_dichvu.png") 
 		draw = ImageDraw.Draw(img)
 		draw.text((70, 250),e,(0,0,0),font=font) 
-		img.save('card' + str(i) + '.jpg') 				
+		img.save('image/card' + str(i) + '.jpg') 				
 		i = i + 1
 		print(e)
 #draw.text((70, 250),e,(0,0,0),font=font)
